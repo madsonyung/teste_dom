@@ -1,0 +1,38 @@
+footer {
+    height: 5em;
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;    
+  }
+
+  body {
+	color: hsl(192, 100%, 9%);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	margin: 0;
+  width: auto;
+  
+}
+
+main{
+    width: auto;
+    height: 40em;
+}
+
+.posicao {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.show:hover {
+    cursor: onmousemove;
+    display: none;
+}
